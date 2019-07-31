@@ -17,7 +17,7 @@ System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 						
 			//MouseHover functions
 		   Actions action=new Actions(driver);
-		   action.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-yourAccount']"))).build().perform();
+		   action.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-accountList']"))).build().perform();
 		   Thread.sleep(3000);
 	      driver.findElement(By.xpath("(//span[@class='nav-action-inner'])[1]")).click();
 	      Thread.sleep(3000);

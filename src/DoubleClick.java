@@ -14,7 +14,7 @@ driver.manage().window().maximize();
 driver.get("http://only-testing-blog.blogspot.in/2014/09/selectable.html");
 		
 Actions action=new Actions(driver);
-action.doubleClick(driver.findElement(By.xpath(".//*[@id='post-body-7297556448793668582']/div[1]/button"))).build().perform();
+action.doubleClick(driver.findElement(By.xpath("//*[@id='post-body-7297556448793668582']/div[1]/button"))).build().perform();
 		
 		
 	}

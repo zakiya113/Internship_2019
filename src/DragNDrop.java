@@ -24,8 +24,6 @@ public class DragNDrop {
 		.build()
 		.perform();
 		
-		
-
 	}
 
 }
